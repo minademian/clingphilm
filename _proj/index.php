@@ -4,36 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>ClingFilm Prototype</title>
-  <?php /* ?>
-  <script type="text/javascript" src="/scripts/behaviour.js"></script>
-  <link href="/styles/clingfilm.css" media="screen" type="text/css" />
-  <?php */ ?>
-  <script type="text/javascript">
-    function Warn()
-    {
-      alert('Sorry nigga, this site has been protected by ClingFilm. :)');
-      return false;
-    }
-  </script>
-  <style type="text/css">
-    input {
-      float:right;
-      width:50px;
-      clear:left;
-      border:0;
-      background:transparent;
-      margin:0;padding:0;
-    }
-    div#clingfilm {
-      z-index:2;
-      position:absolute;
-      top:0px;
-      left:0;margin:0;padding:0;
-      border:0;
-    }
-    div#content {margin:0;padding:0;z-index:1;}
-    div#content img {float:right;clear:left;}
-  </style>
+  <link href="./clingfilm.css" media="screen" type="text/css" />
 </head>
 <body>
   <div id="clingfilm">
