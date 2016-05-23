@@ -37,7 +37,7 @@
 </head>
 <body>
   <div id="clingfilm">
-    <form method="post" action="index.php" onclick="Warn();">
+    <form method="post" action="index.php" onsubmit="Warn();">
     <?php
     for($i=0;$i<5000;$i++)
     {
